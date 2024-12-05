@@ -1,17 +1,26 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Los circuitos integrados y sus familias lógicas',
+    descripcionCurso:
+      'Los circuitos integrados (CI) permiten dispositivos más pequeños y eficientes, esenciales en diversas aplicaciones. Las tecnologías principales son la bipolar, destacada por su velocidad y resistencia al ruido, y MOS, líder por su bajo consumo y alta integración. Estas innovaciones han impulsado la miniaturización y el desarrollo tecnológico en áreas como la computación y las telecomunicaciones.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
       },
     ],
   },
@@ -31,27 +40,13 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Electrónica digital y analógica',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: ' Circuito integrado',
         desarrolloContenidos: true,
       },
     ],
@@ -102,31 +97,104 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Electrónica digital y analógica. ',
+      referencia:
+        'González, J. (2002). Circuitos y sistemas digitales. Universidad Pontifica de Salamanca en Madrid.  ',
+      tipo: 'Documento',
+      link:
+        'http://www.iearobotics.com/personal/juan/docencia/apuntes-ssdd-0.3.7.pdf  ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Electrónica digital y analógica. ',
+      referencia:
+        'Electrónica FP. (2018). <em>Circuitos electrónicos básicos explicados paso a paso</em> [Video]. YouTube. ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=x4do0qN__Bk&ab_channel=Electr%C3%B3nicaFP  ',
+    },
+    {
+      tema: 'Circuito integrado. ',
+      referencia:
+        'El profe García. (2013). <em>Título del video correspondiente</em> [Video]. YouTube.',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=m0nza32BRl8&ab_channel=ElprofeGarc%C3%ADa ',
+    },
+    {
+      tema: 'Circuito integrado. ',
+      referencia:
+        'MADE IN COLOMBIA. (2017). <em>Título del video correspondiente</em> [Video]. YouTube.  ',
+      tipo: 'Video',
+      link:
+        'https://www.youtube.com/watch?v=n15R_n_TshA&ab_channel=MADEINCOLOMBIA ',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Circuito integrado',
+      significado:
+        'dispositivo miniaturizado que contiene componentes electrónicos interconectados en un único chip. ',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'CMOS',
+      significado:
+        'Familia lógica basada en tecnología <em>Complementary Metal-Oxide</em>-Semiconductor, destacada por su bajo consumo de energía. ',
+    },
+    {
+      termino: 'Electrónica analógica',
+      significado:
+        'rama de la electrónica que emplea señales continuas para representar magnitudes físicas variables. ',
+    },
+    {
+      termino: 'Electrónica digital',
+      significado:
+        'rama de la electrónica que trabaja con señales discretas representadas por valores binarios (0 y 1). ',
+    },
+    {
+      termino: 'Familia lógica',
+      significado:
+        'conjunto de circuitos integrados clasificados según la tecnología empleada en su fabricación. ',
+    },
+    {
+      termino: '<em>Fan In</em>',
+      significado:
+        'cantidad máxima de entradas que puede tener una compuerta lógica. ',
+    },
+    {
+      termino: '<em>Fan Out</em>',
+      significado:
+        'número máximo de cargas que una compuerta puede manejar en su salida sin afectar su operación. ',
+    },
+    {
+      termino: 'Margen de ruido',
+      significado:
+        'límite de tensión de ruido aceptable sin alterar el estado lógico de una salida. ',
+    },
+    {
+      termino: 'Tensión de umbral',
+      significado:
+        'voltaje en el que una compuerta cambia de un estado lógico a otro (0 a 1 o viceversa). ',
+    },
+    {
+      termino: 'TTL',
+      significado:
+        'familia lógica basada en la tecnología <em>transistor-transistor logic</em>, conocida por su velocidad. ',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Carretero, F. J., Ferrero, J. A., Sánchez Infantes, P., & Valero, F. J. (2009). <em>Electrónica: Electricidad y electrónica</em>. ',
+      link: '',
+    },
+    {
+      referencia:
+        'González, J. (2002). <em>Circuitos y sistemas digitales<7em>. Universidad Pontificia de Salamanca en Madrid. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Universidad Nacional Virtual. <em>Tabla de características de familias lógicas<7em>. ',
       link: '',
     },
   ],
@@ -150,8 +218,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Magda Melissa Rodríguez Celis',
+          cargo: 'Experto temático',
+          centro:
+            'Centro de Desarrollo Agroempresarial - Regional Cundinamarca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora instruccional ',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +234,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
+          nombre: 'Andrés Felipe Herrera Roldan',
+          cargo: 'Diseñador de contenidos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Luis Jesús Pérez Madariaga',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -179,11 +248,6 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',

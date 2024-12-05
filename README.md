@@ -1,4 +1,4 @@
-# **sena-base-2021 v6.0.5**
+# **Los circuitos integrados y sus familias lógicas**
 
 ## **Enlace GitHubPages**
 
