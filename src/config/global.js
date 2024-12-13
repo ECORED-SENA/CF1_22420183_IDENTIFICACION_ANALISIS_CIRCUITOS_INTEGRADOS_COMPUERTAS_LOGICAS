@@ -133,7 +133,7 @@ export default {
     {
       termino: 'Circuito integrado',
       significado:
-        'dispositivo miniaturizado que contiene componentes electrónicos interconectados en un único chip. ',
+        'dispositivo miniaturizado que contiene componentes electrónicos interconectados en un único <em>chip</em>. ',
     },
     {
       termino: 'CMOS',

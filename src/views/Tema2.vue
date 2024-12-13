@@ -8,7 +8,7 @@
       h1 Circuito integrado 
     
     .cont_intro
-      p(data-aos="fade-left") Un circuito integrado (CI), también conocido como "chip", es un cristal semiconductor de silicio que contiene múltiples componentes eléctricos interconectados, diseñados para formar un circuito electrónico y realizar una función específica. Los CI son de tamaño reducido y pueden contener una gran cantidad de componentes en su interior. Gracias a los avances tecnológicos, actualmente se fabrican chips microscópicos que solo pueden ser manipulados por máquinas o robots electrónicos.
+      p(data-aos="fade-left") Un circuito integrado (CI), también conocido como "#[em chip]", es un cristal semiconductor de silicio que contiene múltiples componentes eléctricos interconectados, diseñados para formar un circuito electrónico y realizar una función específica. Los CI son de tamaño reducido y pueden contener una gran cantidad de componentes en su interior. Gracias a los avances tecnológicos, actualmente se fabrican #[em chips] microscópicos que solo pueden ser manipulados por máquinas o robots electrónicos.
 
       .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mt-5(data-aos="flip-up" data-aos-duration="700")
         .bloque-texto-g__img(
@@ -171,7 +171,7 @@
     
     .row
       .col-lg(data-aos="fade-right" style="place-self:center;")
-        p El nivel de integración se refiere a la cantidad de compuertas lógicas que puede tener un CI. Es decir, cuanto más compuertas y sistemas tenga un chip, podrá realizar más funciones con menos chips.
+        p El nivel de integración se refiere a la cantidad de compuertas lógicas que puede tener un CI. Es decir, cuanto más compuertas y sistemas tenga un #[em chip], podrá realizar más funciones con menos #[em chips].
         p.mb-0 A continuación, la clasificación por niveles de integración:
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
@@ -309,11 +309,11 @@
                 td #[em Integrated Injection Logic]
                 td Mayor densidad de integración, llegando a microprocesadores.
 
-    p.mt-5.fw-bold(data-so="fade-up") Tecnologías MOS (Metal Oxide Semiconductor)
+    p.mt-5.fw-bold(data-so="fade-up") Tecnologías MOS (#[em Metal Oxide Semiconductor])
 
     .row.mt-5
       .col-lg(data-aos="fade-right" style="place-self:center;")
-        p La tecnología MOS (Metal Oxide Semiconductor) es una de las más significativas e importantes en el ámbito de los circuitos integrados. Esta tecnología se basa en el uso de transistores MOS, que ofrecen ventajas clave como un consumo energético reducido, mayor densidad de integración y una notable velocidad de operación. Su evolución ha permitido el desarrollo de dispositivos con capacidades superiores y mayor eficiencia, siendo una base esencial para los microprocesadores modernos y otros sistemas electrónicos avanzados.
+        p La tecnología MOS (#[em Metal Oxide Semiconductor]) es una de las más significativas e importantes en el ámbito de los circuitos integrados. Esta tecnología se basa en el uso de transistores MOS, que ofrecen ventajas clave como un consumo energético reducido, mayor densidad de integración y una notable velocidad de operación. Su evolución ha permitido el desarrollo de dispositivos con capacidades superiores y mayor eficiencia, siendo una base esencial para los microprocesadores modernos y otros sistemas electrónicos avanzados.
         p.mb-0 A continuación, se describen las principales variantes de esta tecnología:
       .col-lg-auto.d-none.d-lg-block(data-aos="fade-left")
         figure
@@ -323,7 +323,7 @@
       .col-xl-8.col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 3.
-          span Tecnologías MOS (Metal Oxide Semiconductor)
+          span Tecnologías MOS (#[em Metal Oxide Semiconductor])
         .tabla-a.color-acento-contenido(data-aos="fade-up")
           table
             thead
