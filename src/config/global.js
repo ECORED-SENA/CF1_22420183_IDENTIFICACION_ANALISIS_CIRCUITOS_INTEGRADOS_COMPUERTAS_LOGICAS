@@ -99,7 +99,7 @@ export default {
     {
       tema: 'Electrónica digital y analógica. ',
       referencia:
-        'González, J. (2002). Circuitos y sistemas digitales. Universidad Pontifica de Salamanca en Madrid.  ',
+        'González, J. (2002). <i>Circuitos y sistemas digitales</i>. Universidad Pontifica de Salamanca en Madrid.  ',
       tipo: 'Documento',
       link:
         'http://www.iearobotics.com/personal/juan/docencia/apuntes-ssdd-0.3.7.pdf  ',
@@ -189,7 +189,7 @@ export default {
     },
     {
       referencia:
-        'González, J. (2002). <em>Circuitos y sistemas digitales<em>. Universidad Pontificia de Salamanca en Madrid. ',
+        'González, J. (2002). <em>Circuitos y sistemas digitales</em>. Universidad Pontificia de Salamanca en Madrid. ',
       link: '',
     },
     {

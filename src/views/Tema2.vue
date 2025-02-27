@@ -193,34 +193,34 @@
             tbody.bg-white
               tr
                 td SSI
-                td #[em Small Scale Integration]
-                td Hasta 10 puertas
-                td Puertas lógicas
+                td #[em Small Scale Integration.]
+                td Hasta 10 puertas.
+                td Puertas lógicas.
               tr
                 td MSI
-                td #[em Medium Scale Integration]
-                td Entre 10 y 100 puertas
-                td Codificadores, multiplexores
+                td #[em Medium Scale Integration.]
+                td Entre 10 y 100 puertas.
+                td Codificadores, multiplexores.
               tr
                 td LSI
-                td #[em Large Scale Integration]
-                td Entre 100 y 1.000 puertas
-                td Calculadoras elementales, primeros microprocesadores
+                td #[em Large Scale Integration.]
+                td Entre 100 y 1.000 puertas.
+                td Calculadoras elementales, primeros microprocesadores.
               tr
                 td VLSI
-                td #[em Very Large Scale Integration]
-                td De 1.000 a 10.000 puertas
-                td Miniaturización de equipos
+                td #[em Very Large Scale Integration.]
+                td De 1.000 a 10.000 puertas.
+                td Miniaturización de equipos.
               tr
                 td ULSI
-                td #[em Ultra Large Scale Integration]
-                td De 10.000 a 1.000.000 puertas
-                td Microprocesadores avanzados
+                td #[em Ultra Large Scale Integration.]
+                td De 10.000 a 1.000.000 puertas.
+                td Microprocesadores avanzados.
               tr
                 td GLSI
-                td #[em Giga Large Scale Integration]
-                td Más de 1.000.000 de puertas
-                td Microcontroladores de última generación
+                td #[em Giga Large Scale Integration.]
+                td Más de 1.000.000 de puertas.
+                td Microcontroladores de última generación.
 
     .cont_decorativo.mb-4.mt-5.p-relative(data-aos="fade-right")
       .row
@@ -286,27 +286,27 @@
             tbody.bg-white
               tr
                 td RTL
-                td #[em Resistor Transistor Logic]
+                td #[em Resistor Transistor Logic.]
                 td Obsoleta, ya no se fabrica.
               tr
                 td DTL
-                td #[em Diode Transistor Logic]
+                td #[em Diode Transistor Logic.]
                 td Obsoleta, ya no se fabrica.
               tr
                 td HTL
-                td #[em High Threshold Logic]
+                td #[em High Threshold Logic.]
                 td Alta inmunidad al ruido. Usada en aplicaciones industriales.
               tr
                 td TTL
-                td #[em Transistor Transistor Logic]
-                td Alta popularidad. Alimentación de 5V. Variantes como TTL-LS, TTL Schottky.
+                td #[em Transistor Transistor Logic.]
+                td Alta popularidad. Alimentación de 5 V. Variantes como TTL-LS, TTL Schottky.
               tr
                 td ECL
-                td #[em Emitter Coupled Logic]
+                td #[em Emitter Coupled Logic.]
                 td Más rápida. Utilizada en circuitos de alta velocidad.
               tr
                 td IIL
-                td #[em Integrated Injection Logic]
+                td #[em Integrated Injection Logic.]
                 td Mayor densidad de integración, llegando a microprocesadores.
 
     p.mt-5.fw-bold(data-so="fade-up") Tecnologías MOS (#[em Metal Oxide Semiconductor])
@@ -339,7 +339,7 @@
                 td Más rápida que PMOS. Usada en microprocesadores de 8 bits.
               tr
                 td CMOS
-                td Dominante en CI de integración media. Bajo consumo. Alimentación entre 3 y 15V.
+                td Dominante en CI de integración media. Bajo consumo. Alimentación entre 3 y 15 V.
               tr
                 td HCMOS
                 td Versión mejorada del CMOS. Alta velocidad, compatible con circuitos TTL.

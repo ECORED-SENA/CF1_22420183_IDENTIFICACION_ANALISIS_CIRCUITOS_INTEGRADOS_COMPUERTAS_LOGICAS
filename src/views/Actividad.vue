@@ -20,7 +20,7 @@ export default {
       tema: 'Circuitos integrados y electrónica',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar fundamentales de circuitos integrados, señales analógicas y digitales, tecnologías de fabricación, y características de las familias lógicas en electrónica.',
+        '<b> Objetivo:</b> identificar fundamentales de circuitos integrados, señales analógicas y digitales, tecnologías de fabricación, y características de las familias lógicas en electrónica.',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -94,10 +94,10 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Control Inteligente. ', esCorrecta: false },
-            { id: 'b', texto: 'Conexión Interna. ', esCorrecta: false },
-            { id: 'c', texto: 'Circuito Integrado. ', esCorrecta: true },
-            { id: 'd', texto: 'Compuerta Intermedia. ', esCorrecta: false },
+            { id: 'a', texto: 'Control inteligente. ', esCorrecta: false },
+            { id: 'b', texto: 'Conexión interna. ', esCorrecta: false },
+            { id: 'c', texto: 'Circuito integrado. ', esCorrecta: true },
+            { id: 'd', texto: 'Compuerta intermedia. ', esCorrecta: false },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
@@ -272,7 +272,7 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'TTL (Transistor Transistor Logic). ',
+              texto: 'TTL (<i>Transistor Transistor Logic</i>). ',
               esCorrecta: true,
             },
             { id: 'b', texto: 'RTL. ', esCorrecta: false },
@@ -311,7 +311,7 @@ export default {
         {
           id: 12,
           texto:
-            'En un circuito integrado, el término "Fan Out" se refiere a: ',
+            'En un circuito integrado, el término "<i>Fan Out</i>" se refiere a: ',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
