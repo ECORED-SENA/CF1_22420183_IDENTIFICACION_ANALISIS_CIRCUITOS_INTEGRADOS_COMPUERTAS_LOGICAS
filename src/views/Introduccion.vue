@@ -25,7 +25,6 @@
         .col-md(style="place-self:center;")
           p.mb-0 La evolución de estas tecnologías ha impulsado la miniaturización y el rendimiento de los sistemas electrónicos, transformando áreas como la computación y las telecomunicaciones.
 
-
 </template>
 
 <script>

@@ -9,14 +9,18 @@
   </template>
 
 <script>
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue'
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
-      tema: 'Circuitos integrados y electrónica ',
+      tema: 'Circuitos integrados y electrónica',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar fundamentales de circuitos integrados, señales analógicas y digitales, tecnologías de fabricación, y características de las familias lógicas en electrónica. ',
+        '<b> Objetivo:</b> Identificar fundamentales de circuitos integrados, señales analógicas y digitales, tecnologías de fabricación, y características de las familias lógicas en electrónica.',
       barajarPreguntas: true,
       preguntas: [
         {

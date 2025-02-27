@@ -57,7 +57,7 @@
       .col-xl-8.col-lg-10.m-auto.mt-5.pb-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Figura 1.
-          span Señal analógica
+          span #[i Señal analógica]
     .col-xl-8.col-lg-10.m-auto
       figure(data-aos="zoom-in-up")
         img(src="@/assets/curso/tema1/7.svg" alt="La figura presenta una señal analógica, representada por una onda continua que varía suavemente con el tiempo.")
@@ -106,30 +106,18 @@
       .col-xl-8.col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Figura 2.
-          span Señal analógica
+          span #[i Señal digital]
         figure.mt-5(data-aos="zoom-in-up")
           img(src="@/assets/curso/tema1/11.svg" alt="La figura presenta  una señal digital, representada por una forma escalonada que alterna entre dos niveles discretos  en función del tiempo t. ")
-
-
-
-      
+ 
 </template>
 
 <script>
 export default {
   name: 'Tema1',
-  components: {},
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
-  mounted() {
-    this.$nextTick(() => {
-      this.$aosRefresh()
-    })
-  },
-  updated() {
-    this.$aosRefresh()
-  },
 }
 </script>
 

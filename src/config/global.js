@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'Los circuitos integrados y sus familias lógicas',
-    descripcionCurso:
+    Name: 'Los circuitos integrados y sus familias lógicas',
+    Description:
       'Los circuitos integrados (CI) permiten dispositivos más pequeños y eficientes, esenciales en diversas aplicaciones. Las tecnologías principales son la bipolar, destacada por su velocidad y resistencia al ruido, y MOS, líder por su bajo consumo y alta integración. Estas innovaciones han impulsado la miniaturización y el desarrollo tecnológico en áreas como la computación y las telecomunicaciones.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
@@ -189,12 +189,12 @@ export default {
     },
     {
       referencia:
-        'González, J. (2002). <em>Circuitos y sistemas digitales<7em>. Universidad Pontificia de Salamanca en Madrid. ',
+        'González, J. (2002). <em>Circuitos y sistemas digitales<em>. Universidad Pontificia de Salamanca en Madrid. ',
       link: '',
     },
     {
       referencia:
-        'Universidad Nacional Virtual. <em>Tabla de características de familias lógicas<7em>. ',
+        'Universidad Nacional Virtual. <em>Tabla de características de familias lógicas<em>. ',
       link: '',
     },
   ],

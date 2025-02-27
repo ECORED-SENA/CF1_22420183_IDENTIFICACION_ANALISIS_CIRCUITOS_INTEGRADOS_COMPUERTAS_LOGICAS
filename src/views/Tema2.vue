@@ -149,7 +149,7 @@
               figure
                 img(src="@/assets/curso/tema2/15.svg")
             .col(style="place-self:end;")
-              h4.p-1.ps-3.pe-3(style="background-color:#FD96CA;max-width:fit-content;") Análogos o lineales
+              h4.p-1.ps-3.pe-3(style="background-color:#FD96CA;max-width:fit-content;") Digitales
           ul.lista-ul.text-start.mt-5.mb-0
             li.d-flex
               i.fas.fa-check-circle(style="color:#67987C;")
@@ -181,7 +181,7 @@
       .col-xl-10.m-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 1.
-          span Niveles o escalas de integración en los que se puede clasificar un CI
+          span #[i Niveles o escalas de integración en los que se puede clasificar un CI]
         .tabla-a.color-acento-contenido(data-aos="fade-up")
           table
             thead
@@ -275,7 +275,7 @@
       .col-xl-8.col-lg-10.m-auto.mt-5
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 2.
-          span Tecnología bipolar
+          span #[i Tecnología bipolar]
         .tabla-a.color-acento-contenido(data-aos="fade-up")
           table
             thead
@@ -323,7 +323,7 @@
       .col-xl-8.col-lg-10.m-auto
         .titulo-sexto.color-acento-contenido(data-aos="fade-down")
           h5 Tabla 3.
-          span Tecnologías MOS (#[em Metal Oxide Semiconductor])
+          span #[i Tecnologías MOS (Metal Oxide Semiconductor)]
         .tabla-a.color-acento-contenido(data-aos="fade-up")
           table
             thead
@@ -347,16 +347,13 @@
                 td HMOS
                 td Tecnología avanzada por Intel. Alta densidad y velocidad. Integración de millones de transistores.
 
-
-
-
 </template>
 
 <script>
 export default {
   name: 'Tema2',
   data: () => ({
-    indicadorTarjetaFlip: true,
+    // variables de vue
   }),
   mounted() {
     this.$nextTick(() => {
